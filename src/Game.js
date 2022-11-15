@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import Phaser from 'phaser';
 import Dude from "./scenas/Dude";
 
-
 export default function Game() {
-
 
     const [listo,setListo] = useState(false);
     useEffect (() =>{    

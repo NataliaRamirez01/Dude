@@ -52,7 +52,6 @@ hitBomb (player, bomb)
     );
 }
    
-
  create ()
     {
         //Se sobreponen en el orden que se le declaran.Siempre poner primero al fondo....
@@ -65,7 +64,6 @@ hitBomb (player, bomb)
             repeat: 11,
             setXY: { x: 9, y: 0, stepX: 70 }
         });
-        
         
         this.cursors = this.input.keyboard.createCursorKeys();
     
